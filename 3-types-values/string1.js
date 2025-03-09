@@ -1,5 +1,5 @@
 // now look at the string in the javascript
-let s1 = "welcome to the javascript core for subject of string";
+let s1 = "welcome to the javascript core for subject of string for further knowledge of javascript visit google";
 
 // lets look at the length
 console.log(`the length of the string is : ${s1.length}`);
@@ -24,6 +24,20 @@ for(let i=0 ;i < s1.length ; i++){
 }
 
 console.log(arr1);
+
+
+// lets do different search operation in the string
+
+// to find the index of any char in the string
+let first_index = s1.indexOf('javascript');
+console.log(`the first index of the string is : ${first_index}`);
+
+// last index of any string
+let last_index = s1.lastIndexOf('javascript');
+console.log(`the last index of the string is : ${last_index}`);
+
+
+
 
 
 
