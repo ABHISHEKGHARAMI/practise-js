@@ -36,6 +36,27 @@ console.log(`the first index of the string is : ${first_index}`);
 let last_index = s1.lastIndexOf('javascript');
 console.log(`the last index of the string is : ${last_index}`);
 
+if(s1.startsWith('wel')==true){
+    console.log('starting with wel');
+}else{
+    console.log('not starting with wel!');
+}
+
+// now look at the ending
+
+
+if(s1.endsWith('google')){
+    console.log('ending with google');
+}else{
+    console.log('not ending with google');
+}
+
+// checking that includes with the specific char
+if(s1.includes('javascript')){
+    console.log('contains javascript');
+}else{
+    console.log('not contains javascript');
+}
 
 
 
