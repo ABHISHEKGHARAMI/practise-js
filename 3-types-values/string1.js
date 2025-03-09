@@ -60,5 +60,12 @@ if(s1.includes('javascript')){
 
 
 
+// now we go for the different modified version of the string
+console.log(`the upper case version of the string is : ${s1.toUpperCase()}`);
+console.log(`the lower case version of the string is : ${s1.toLowerCase()}`);
+
+
+
+
 
 
