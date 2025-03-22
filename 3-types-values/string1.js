@@ -65,6 +65,25 @@ console.log(`the upper case version of the string is : ${s1.toUpperCase()}`);
 console.log(`the lower case version of the string is : ${s1.toLowerCase()}`);
 
 
+// here we go for modification
+console.log(s1);
+
+// now lets start modification
+
+
+let s6 = s1.replace('string','special string');
+console.log(`After replacing the string is : ${s6}`);
+
+
+// lets normalize the new string
+let s7 = s6.normalize();
+console.log(`After normalize the string is : ${s7}`);
+
+// NFD normalize
+let s8 = s6.normalize("NFD");
+console.log(`After the NFD normalize the string is : ${s8}`);
+
+
 
 
 
